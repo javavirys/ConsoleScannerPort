@@ -1,10 +1,11 @@
 #include "console_utils.h"
 
 #ifdef WIN32
-#include <iostream>
 #include <windows.h>
 
 #endif
+
+#include <iostream>
 
 #ifdef WIN32
 // устанавливает цвет текста и подложки в консоли
@@ -32,6 +33,6 @@ void qCout(const QString &text, ConsoleColor color)
     SetColor(LightGray,Black);
 
 #else
-    qout<<text;
+    std::cout<<text.toStdString().c_str();
 #endif
 }
