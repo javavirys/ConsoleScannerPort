@@ -1,6 +1,14 @@
 ConsoleScannerPorts
+'+' -Added
+'-' -Removed
+'~' -Changed
 ----------------------V 0.1----------------------
 + First Version
 ----------------------V 0.2----------------------
 + Added the ability to create a log of open ports
++ Report to file
 ~ Changed calculation percent progress
+----------------------V 0.5----------------------
++ Use OOP
+----------------------V 0.7----------------------
++ Create a complete summary for each command
