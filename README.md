@@ -32,6 +32,6 @@ Official website: http://java-virys.narod.ru
 #####-i(Get all ip):#####
 >>>This parameter is used for all IP.  
 
-EXAMPLES:
+				EXAMPLES:
 
-qnetscan -i  
+				 qnetscan -i  
