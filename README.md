@@ -6,8 +6,10 @@ Official website: http://java-virys.narod.ru
 >>>Description  
 
 #####-s(Scan):#####
->>>This parameter is used to scan a single IP or to display the status of a particular port. For multi-threaded scanning use the key -t, transmit only after the -s.To conduct the scan report, use the key -r, transmit only after the -s will create a text file in the working directory with the name of the current time.
-                 EXAMPLES:  
+>>>This parameter is used to scan a single IP or to display the status of a particular port. For multi-threaded scanning use the key -t, transmit only after the -s.To conduct the scan report, use the key -r, transmit only after the -s will create a text file in the working directory with the name of the current time.  
+
+                EXAMPLES:  
+
 				 qnetscan -s 127.0.0.1:1234
 				 
 				 qnetscan -s 192.168.1.1
@@ -17,8 +19,8 @@ Official website: http://java-virys.narod.ru
 				 qnetscan -s -t -r 192.168.1.1  
 
 #####-a(Scan all ip):#####
->>>This parameter is used to scan all IP for open ports.For multi-threaded scanning use the key -t, transmit only after
-                 the -a.To conduct the scan report, use the key -r, transmit only after the -a will create a text file in the working directory with the name of the current time
+>>>This parameter is used to scan all IP for open ports.For multi-threaded scanning use the key -t, transmit only after the -a.To conduct the scan report, use the key -r, transmit only after the -a will create a text file in the working directory with the name of the current time  
+
                  EXAMPLES:
 				 qnetscan -a
 				 
