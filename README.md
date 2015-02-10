@@ -19,9 +19,10 @@ Official website: http://java-virys.narod.ru
 				 qnetscan -s -t -r 192.168.1.1  
 
 #####-a(Scan all ip):#####
->>>This parameter is used to scan all IP for open ports.For multi-threaded scanning use the key -t, transmit only after the -a.To conduct the scan report, use the key -r, transmit only after the -a will create a text file in the working directory with the name of the current time  
+>>>This parameter is used to scan all IP for open ports.For multi-threaded scanning use the key -t, transmit only after the -a.To conduct the scan report, use the key -r, transmit only after the -a will create a text file in the working directory with the name of the current time.  
 
-                 EXAMPLES:
+                EXAMPLES:  
+				 
 				 qnetscan -a
 				 
 				 qnetscan -a -r
@@ -29,5 +30,8 @@ Official website: http://java-virys.narod.ru
 				 qnetscan -a -r -t  
 
 #####-i(Get all ip):#####
->>>This parameter is used for all IP
-EXAMPLES:qnetscan -i  
+>>>This parameter is used for all IP.  
+
+EXAMPLES:
+
+qnetscan -i  
