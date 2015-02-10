@@ -2,7 +2,8 @@
 Application to poll the network ports on your computer.
 Official website: http://java-virys.narod.ru
 
-Command:        Description:
+#####Command:#####
+>>>Description:  
 
 #####-s(Scan):#####
 >>>This parameter is used to scan a single IP or to display
@@ -21,4 +22,5 @@ Command:        Description:
                  directory with the name of the current time
                  EXAMPLE:        -a  
 
-#####-i(Get all ip):#####  This parameter is used for all IP
+#####-i(Get all ip):#####
+>>>This parameter is used for all IP
